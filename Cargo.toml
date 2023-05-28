@@ -1,6 +1,6 @@
 [package]
 name = "cock-tui"
-version = "0.8.0"
+version = "0.8.1"
 license = "MIT"
 description = "TUI for `cock-lib`"
 exclude = ["assets"]
@@ -13,4 +13,4 @@ repository = "https://github.com/im-turn/cock-tui"
 
 [dependencies]
 cursive = "0.20.0"
-cock-lib = "1.0.0"
+cock-lib = "1.0.1"
