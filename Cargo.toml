@@ -2,7 +2,7 @@
 name = "cock-tui"
 version = "0.8.0"
 license = "MIT"
-decription = "TUI for `cock-lib`"
+description = "TUI for `cock-lib`"
 exclude = ["assets"]
 edition = '2021'
 authors = ["turn"]
