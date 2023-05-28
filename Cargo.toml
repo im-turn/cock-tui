@@ -1,6 +1,7 @@
 [package]
 name = "cock-tui"
 version = "0.8.0"
+license = "MIT"
 decription = "TUI for `cock-lib`"
 edition.workspace = true
 exclude = ["assets"]
@@ -11,5 +12,5 @@ repository = "https://github.com/im-turn/cock-tui"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cock-lib = { path = "../cock-lib", version= "1.0.0" }
 cursive.workspace = true
+cock-lib.workspace = true
