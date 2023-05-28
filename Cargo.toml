@@ -6,7 +6,7 @@ description = "TUI for `cock-lib`"
 exclude = ["assets"]
 edition = '2021'
 authors = ["turn"]
-keywords = ["cocks", "penis", "anatomy", "tier", "ranking"]
+keywords = ["cock", "cocks", "tui"]
 repository = "https://github.com/im-turn/cock-tui"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
