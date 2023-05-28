@@ -3,14 +3,14 @@ name = "cock-tui"
 version = "0.8.0"
 license = "MIT"
 decription = "TUI for `cock-lib`"
-edition.workspace = true
 exclude = ["assets"]
-authors.workspace = true
-keywords.workspace = true
+edition = 2021
+authors = ["turn"]
+keywords = ["cocks", "penis", "anatomy", "tier", "ranking"]
 repository = "https://github.com/im-turn/cock-tui"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cursive.workspace = true
-cock-lib.workspace = true
+cursive = "0.20.0"
+cock-lib = "1.0.0"
