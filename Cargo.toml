@@ -1,0 +1,13 @@
+[package]
+name = "cock-tui"
+version = "0.8.0"
+edition.workspace = true
+exclude = ["assets"]
+authors.workspace = true
+keywords.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cock-lib = { path = "../cock-lib" }
+cursive.workspace = true
