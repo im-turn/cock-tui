@@ -34,16 +34,16 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "cock-lib"
-version = "1.0.0"
+version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2640a8da14d6b0045c12195804394c0993d96e74c20307e058a49b85386dfffc"
+checksum = "6b65938deadff4f4edb5855f2926578f1342821df66c0db5463cc00bdc6d4f34"
 dependencies = [
  "cursive",
 ]
 
 [[package]]
 name = "cock-tui"
-version = "0.8.0"
+version = "0.8.1"
 dependencies = [
  "cock-lib",
  "cursive",
