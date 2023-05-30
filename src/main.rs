@@ -1,7 +1,7 @@
-use cock_lib::bin_modules::{
-    tui_prompt::{draw::TUIDisplay, theme::popup_theme_menu},
+use cock_lib::bin_use::{
     UserData,
 };
+use cock_tui::draw::{popup_theme_menu, TUIDisplay};
 use cursive::event::Key;
 
 fn main() {
@@ -13,6 +13,8 @@ fn main() {
 
     // global callback to exit the program
     siv.add_global_callback(Key::Esc, |s| s.quit());
+
+    // global callback to change the theme
     siv.add_global_callback('\\', |s| popup_theme_menu(s));
 
     // get the initial state set by `UserData::default()`
