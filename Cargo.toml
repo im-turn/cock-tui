@@ -13,4 +13,4 @@ repository = "https://github.com/im-turn/cock-tui"
 
 [dependencies]
 cursive = "0.20.0"
-cock-lib = "2.1.0"
+cock-lib = { version = "2.2.0", features = ["bin_use"]}
